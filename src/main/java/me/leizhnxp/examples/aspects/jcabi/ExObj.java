@@ -9,8 +9,13 @@ public class ExObj {
 	 public String load(String resource) throws IOException {
 	   return "something";
 	 }
-	 
+	 @Loggable(Loggable.INFO)
+	 public String load2(String resource,String res2) throws IOException {
+	   return "something";
+	 } 
 	 public static void main(String[] args) throws IOException {
-		new ExObj().load("anything");
+		final ExObj exObj = new ExObj();
+		exObj.load("anything");
+		exObj.load2("x", "y");
 	}
 }
