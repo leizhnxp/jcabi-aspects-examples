@@ -3,7 +3,8 @@
 ### 参考
 
 * [使用AOP与注解记录Java日志](http://www.importnew.com/13367.html)
-* [别人的轮子](http://aspects.jcabi.com/index.html)
+* [轮子的参考](http://aspects.jcabi.com/index.html)
+* [java 8 注意？](http://plugin.jcabi.com/example-java8.html)
 
 ### 其它
 
